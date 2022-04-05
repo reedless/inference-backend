@@ -14,4 +14,6 @@ Create a new venv (takes a while longer than usual?)
 
 `pip3 install -r requirements.txt`
 
+`pip3 install torch --extra-index-url https://download.pytorch.org/whl/cpu`
+
 `python3 inference_backend.py`
