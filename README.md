@@ -17,3 +17,5 @@ Create a new venv (takes a while longer than usual?)
 `pip3 install torch --extra-index-url https://download.pytorch.org/whl/cpu`
 
 `python3 inference_backend.py`
+
+Go to `localhost:5000`
