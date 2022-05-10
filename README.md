@@ -16,14 +16,6 @@ Clone this repository (might need a new SSH key)
 
 `cd inference-backend`
 
-`python3 -m venv venv`
-
-`source venv/bin/activate`
-
-`pip3 install -r requirements.txt`
-
-`pip3 install torch --extra-index-url https://download.pytorch.org/whl/cpu`
-
-`python3 inference_backend.py`
+`bash startup.sh`
 
 Go to `localhost:5000`
