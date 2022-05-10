@@ -1,15 +1,16 @@
 import base64
+import json
 from io import BytesIO
 
-import cv2
-import learn2learn as l2l
 import numpy as np
 import torch
 import torch.nn as nn
+
+import cv2
+import learn2learn as l2l
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from imageio import imread
-import json
 
 app = Flask(__name__)
 cors = CORS(app)

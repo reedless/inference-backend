@@ -1,7 +1,9 @@
+import traceback
+
 import torch
 from torch import nn
 from torch.autograd import grad
-import traceback
+
 
 def update_module(module, updates=None, memo=None):
     r"""
